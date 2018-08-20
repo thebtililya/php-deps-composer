@@ -6,6 +6,7 @@ RUN apt-get update \
     && apt-get -y install unzip git \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN docker-php-ext-install bcmath
 RUN pecl install mongodb \
     && docker-php-ext-enable mongodb
 
