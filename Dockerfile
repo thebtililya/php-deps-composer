@@ -1,4 +1,4 @@
-FROM php:7.0.31-cli-stretch
+FROM php:7.4.11-cli
 
 LABEL maintainer Linagora Folks <lgs-openpaas-dev@linagora.com>
 
