@@ -12,7 +12,7 @@ pipeline {
 
       steps {
         sh 'printenv'
-        echo env.BRANCH_NAME
+        echo BRANCH_NAME
       }  
     }
   }
